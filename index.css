@@ -1,0 +1,54 @@
+html {
+  background-image: url(/images/Toronto-TTC-Subway-Streetcar-32.webp);
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body {
+  background-color: antiquewhite;
+  margin: 0 auto;
+  width: 40%;
+  height: 70%;
+  font-size: 40px;
+  text-align: center;
+  padding: 40px;
+}
+button {
+  display: block;
+  margin: auto;
+  margin-top: 5%;
+}
+
+button:hover {
+  background-color: yellow;
+  color: black;
+}
+button:active {
+  background-color: green;
+}
+@media screen and (max-width: 750px) {
+  body {
+    font-size: 20px;
+    padding: 20px;
+    height: 35%;
+  }
+  button {
+    font-size: 10px;
+    top: -10px;
+  }
+}
+@media screen and (max-width: 350px) {
+  body {
+    font-size: 10px;
+    padding: 10px;
+    /* width :5%; */
+    height: 16.5%;
+  }
+  button {
+    font-size: 5px;
+    top: 5px;
+  }
+}
